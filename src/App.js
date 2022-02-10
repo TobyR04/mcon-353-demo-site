@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://media.istockphoto.com/photos/composition-with-books-on-the-table-picture-id1158413597?s=612x612" className="App-logo" alt="logo" />
+        <img src="https://ichef.bbci.co.uk/images/ic/1200x675/p08j8hmv.jpg" className="App-logo" alt="logo" />
           Welcome to my personal website! My name is Toby Rudman.
       </header>
       <h1>More about Toby</h1>
