@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import {
   Button, Checkbox, FormControlLabel, Card, CardActionArea, CardMedia, Typography, Avatar, CardContent,
