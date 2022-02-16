@@ -1,0 +1,49 @@
+body {
+  background-color: aqua;
+  text-align: center;
+}
+.todo-container {
+  background: rgb(233, 45, 177);
+  width: 40vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  color: white;
+  border: 3px solid rgb(36, 110, 194);
+}
+
+header {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(130, 35, 21);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+#inputs {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 2.5em 2em;
+}
+
+#submit {
+  font-size: 18px;
+  background-color: rgb(80, 62, 145);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 8px 16px;
+  justify-content: space-between;
+}
+
+#tasks {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: right;
+}

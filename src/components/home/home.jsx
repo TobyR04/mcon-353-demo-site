@@ -1,12 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./home.css";
 import {
   Button, Checkbox, FormControlLabel, Card, CardActionArea, CardMedia, Typography, Avatar, CardContent,
   Divider, withStyles,CardActions,Grid
 } from "@mui/material"; 
 import { Padding } from "@mui/icons-material";
 
-function App() {
+ export function Home() {
   return (
     <div className="App">
       <header className="App-header">
@@ -123,4 +122,4 @@ function App() {
 }
 
 
-export default App;
+export default Home;
