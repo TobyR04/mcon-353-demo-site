@@ -10,8 +10,8 @@ import {Todo} from '../todo/todo'
 function App() {
   return (
     <div>
-      {/* <Home /> */}
-       <Todo /> 
+       {/* <Home />  */}
+        <Todo />  
     </div >
   )
 }
