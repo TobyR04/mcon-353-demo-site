@@ -1,22 +1,7 @@
 import React from "react";
 import "./todo.css";
-import { TextField, Checkbox, Button } from "@mui/material";
-import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
+import { TextField, Checkbox, Button, Title } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
-
-function SvgMaterialIcons() {
-  return (
-    <Grid container sx={{ color: "text.primary" }}>
-      <Grid item xs={4}>
-        <Typography>Filled</Typography>
-      </Grid>
-      <Grid item xs={8}>
-        <DeleteIcon />
-      </Grid>
-    </Grid>
-  );
-}
 
 export function Todo() {
   const [todos, setTodos] = React.useState([]);
