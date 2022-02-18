@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./todo.css";
 import { TextField, Checkbox, Button, Title } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
+import { AddToDriveOutlined } from "@mui/icons-material";
 
 export function Todo() {
   const [todos, setTodos] = React.useState([]);
   const [todo, setTodoText] = React.useState("");
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function addTodos(event) {
+    event.preventDefault();
 
     const newTodo = {
       id: Date.now(),
@@ -17,12 +18,12 @@ export function Todo() {
     };
 
     setTodos([...todos].concat(newTodo));
+
     setTodoText("");
   }
 
   function deleteTodo(id) {
-    let updatedTodos = [...todos].filter((todo) => todo.id !== id);
-    setTodos(updatedTodos);
+    setTodos(todos.filter((todo) => todo !== todo.id));
   }
 
   function changeDone(id) {
@@ -41,13 +42,13 @@ export function Todo() {
       <div className="todo-container">
         <header>Todo List</header>
         <br></br>
-
         <div id="inputs">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={addTodos}>
             <TextField
               id="filled-basic"
-              onChange={(e) => setTodoText(e.target.value)}
+              onChange={(event) => setTodoText(event.target.value)}
               value={todo}
+              placeholder="Input todo"
             />
 
             <Button id="submit" type="submit">
