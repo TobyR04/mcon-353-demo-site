@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "./todo.css";
 import { TextField, Checkbox, Button, Title } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { AddToDriveOutlined } from "@mui/icons-material";
+import { TodoContext } from "../app/App";
 
 export function Todo() {
-  const [todos, setTodos] = React.useState([]);
+  const { todos, setTodos } = useContext(TodoContext);
   const [todo, setTodoText] = React.useState("");
 
   function addTodos(event) {
@@ -23,7 +24,8 @@ export function Todo() {
   }
 
   function deleteTodo(id) {
-    setTodos(todos.filter((todo) => todo !== todo.id));
+    let updatedTodos = [...todos].filter((todo) => todo.id !== id);
+    setTodos(updatedTodos);
   }
 
   function changeDone(id) {
