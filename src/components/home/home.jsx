@@ -73,7 +73,7 @@ export function Home() {
               component="img"
               title="Fantasy"
               height="250"
-              image="https://i0.wp.com/timothyrjeveland.com/wp-content/uploads/2019/04/the-historic-origins-of-the-fantasy-genre-explained.jpg?w=954&ssl=1"
+              image="https://i0.wp.com/timothyrjeveland.com/wp-content/uploads/2019/04/the-historic-origins-of-the-fantasy-genre-explained.jpg"
             />
             <CardContent
               style={{

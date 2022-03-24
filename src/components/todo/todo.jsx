@@ -3,7 +3,7 @@ import "./todo.css";
 import { TextField, Checkbox, Button, Title } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { AddToDriveOutlined } from "@mui/icons-material";
-import { TodoContext } from "../app/App";
+import { TodoContext } from "../state/context";
 
 export function Todo() {
   const { todos, setTodos } = useContext(TodoContext);
