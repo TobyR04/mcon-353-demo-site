@@ -91,7 +91,7 @@ export function Home() {
               component="img"
               title="SciFi"
               height="250"
-              image="https://media.istockphoto.com/photos/futuristic-scifi-battle-ships-hover-over-an-alien-planet-picture-id1277822133?k=20&m=1277822133&s=612x612&w=0&h=39Gi-s4f2TBeUPnukbSiLG0gabkon7UyhP4gd3eufdE="
+              image="https://i0.wp.com/timothyrjeveland.com/wp-content/uploads/2019/04/the-historic-origins-of-the-fantasy-genre-explained.jpg"
             />
             <CardContent style={{ backgroundColor: "purple" }}>
               <Typography gutterBottom variant="h5" component="h2">
