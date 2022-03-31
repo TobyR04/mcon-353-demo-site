@@ -87,15 +87,15 @@ export function Home() {
           </Grid>
           <Grid item xs={6}>
             <CardMedia
-              alt="Romance"
+              alt="SciFi"
               component="img"
-              title="Romance"
+              title="SciFi"
               height="250"
-              image="https://escapetoromance.com/wp-content/uploads/sites/172/2017/05/iStock-503130452.jpg"
+              image="http://www.dirkstrasser.com/uploads/1/3/8/6/13866941/space-ship_1_orig.jpg"
             />
             <CardContent style={{ backgroundColor: "purple" }}>
               <Typography gutterBottom variant="h5" component="h2">
-                Romance
+                Science Fiction
               </Typography>
             </CardContent>
           </Grid>
