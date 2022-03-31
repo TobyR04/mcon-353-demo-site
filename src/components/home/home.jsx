@@ -91,7 +91,7 @@ export function Home() {
               component="img"
               title="SciFi"
               height="250"
-              image="http://www.dirkstrasser.com/uploads/1/3/8/6/13866941/space-ship_1_orig.jpg"
+              image="https://image.shutterstock.com/image-illustration/scifi-concept-astronaut-standing-on-260nw-762927769.jpg"
             />
             <CardContent style={{ backgroundColor: "purple" }}>
               <Typography gutterBottom variant="h5" component="h2">
